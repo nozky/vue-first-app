@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 3em;
+}
+
+body h1, body p {
+  text-align: center;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1em;
+}
+
+#app button {
+  padding: 1em;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 5px solid blue;
+}
+
+#app button.male {
+  border: 5px solid blue;
+}
+
+#app button.female {
+  border: 5px solid pink;
+}
+
+#app img {
+  border-radius: 50%;
+  border: 5px solid blue;
+}
+
+#app img.male {
+  border: 5px solid blue;
+}
+
+#app img.female {
+  border: 5px solid pink;
+}
