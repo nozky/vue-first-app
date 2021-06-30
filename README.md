@@ -1,7 +1,7 @@
 # Vue.js
 
 ---
-User Random Generator
+Random user Generator
 
 ## Api 
 
